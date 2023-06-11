@@ -4,7 +4,7 @@
     left: 0%;
     width: 300px;
     height: 100%;
-
+    
 }
 
 header{
@@ -12,13 +12,18 @@ header{
     text-align: center;
     font-size: 1.8em;
 }
-
+.header-main {
+    text-align: left;
+    padding: 3px;
+}
 
 #navbar ul {
   height: 88%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  border-right: 2px solid;
+  height: 100%;
 }
 
 #navbar li {
@@ -44,7 +49,7 @@ header{
     padding: 0;
     margin: 0;
     width: 300px;
-    max-height: 275px;
+    max-height: 100%;
     border: none;
     z-index: 1;
     border-bottom: 2px solid;
@@ -54,7 +59,11 @@ header{
     display: right;
     margin-left: 300px;
     justify-content: center;
+    text-align: left;
    
     top: 0;
 
+}
+.main-section{
+    text-align: justify;
 }
